@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_small_milk_shop/screens/HomePage.dart';
+
 import 'package:flutter_small_milk_shop/screens/HomeScreen.dart';
 
 import 'package:flutter_small_milk_shop/screens/ProductScreen.dart';
@@ -18,7 +20,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: ProductScreen(title: 'Product'),
-      home: HomeScreen(title: 'Home'),
+      // home: HomeScreen(title: 'Home'),
+      home: HomePage(),
 
     );
   }
