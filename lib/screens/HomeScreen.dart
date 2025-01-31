@@ -1,5 +1,7 @@
   import 'package:flutter/material.dart';
 
+  import 'package:flutter_small_milk_shop/widgets/CustomNavigationDrawer.dart';
+
   class HomeScreen extends StatefulWidget {
 
     final String title;
@@ -65,6 +67,7 @@
             ],
           ),
         ),
+        drawer: CustomNavigationDrawer(),
       );
     }
   }
