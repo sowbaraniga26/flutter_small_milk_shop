@@ -1,5 +1,7 @@
   import 'package:flutter/material.dart';
+
   import 'package:flutter_small_milk_shop/screens/HomePage.dart';
+
   import 'RegisterScreen.dart'; // Import RegisterScreen
 
   class LoginScreen extends StatefulWidget {
@@ -62,6 +64,8 @@
               ElevatedButton(
                 onPressed: () {
                   // Handle login logic here
+
+
                   Navigator.pop(context);
 
                   Navigator.push(
@@ -70,6 +74,8 @@
                       builder: (context) => HomePage(),
                     ),
                   );
+
+                  
                 },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 12),
