@@ -5,6 +5,7 @@ import 'package:flutter_small_milk_shop/screens/HomePage.dart';
 import 'package:flutter_small_milk_shop/screens/HomeScreen.dart';
 
 import 'package:flutter_small_milk_shop/screens/ProductScreen.dart';
+import 'package:flutter_small_milk_shop/screens/SplashScreen.dart';
 
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // home: ProductScreen(title: 'Product'),
       // home: HomeScreen(title: 'Home'),
-      home: HomePage(),
+      home: SplashScreen(),
 
     );
   }
